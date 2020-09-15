@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <div className="container">
       <App />
-      <div>
+      <div className="opensourceLink">
         <a href="https://github.com/Ju640/weather-react" target="_blank">
           Open-Source code
         </a>
