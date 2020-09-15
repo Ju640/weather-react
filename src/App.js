@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Forecast from "./Forecast.js";
 
 export default function App() {
   let weatherData = {
@@ -62,6 +63,7 @@ export default function App() {
             <li>Wind: {weatherData.wind} km/h</li>
           </ul>
         </div>
+        <Forecast icon={weatherData.imgUrl} />
       </div>
     </div>
   );
