@@ -8,6 +8,19 @@ ReactDOM.render(
   <React.StrictMode>
     <div className="container">
       <App />
+      <div>
+        <a href="https://github.com/Ju640/weather-react" target="_blank">
+          Open-Source code
+        </a>
+        , by{" "}
+        <a
+          href="https://www.linkedin.com/in/judy-dionne-7a5093107/"
+          target="_blank"
+        >
+          Judy Dionne
+        </a>{" "}
+        👩‍💻
+      </div>
     </div>
   </React.StrictMode>,
   document.getElementById("root")
