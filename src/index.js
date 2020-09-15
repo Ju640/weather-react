@@ -9,13 +9,18 @@ ReactDOM.render(
     <div className="container">
       <App />
       <div className="opensourceLink">
-        <a href="https://github.com/Ju640/weather-react" target="_blank">
+        <a
+          href="https://github.com/Ju640/weather-react"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Open-Source code
         </a>
         , by{" "}
         <a
           href="https://www.linkedin.com/in/judy-dionne-7a5093107/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Judy Dionne
         </a>{" "}
