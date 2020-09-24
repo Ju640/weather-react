@@ -18,7 +18,10 @@ export default function App() {
     <div className="Weather">
       <form className="mb-3">
         <div className="row">
-          <div className="col-9">
+          <div className="col-6">
+            <div className="currentTime" id="time"></div>
+          </div>
+          <div className="col-6">
             <input
               type="search"
               placeholder="Type a city.."
