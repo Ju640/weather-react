@@ -19,22 +19,18 @@ export default function App() {
       <form className="mb-3">
         <div className="row">
           <div className="col-6">
-            <div className="currentTime" id="time"></div>
+            <div className="currentTime">11:46</div>
           </div>
           <div className="col-6">
             <input
               type="search"
-              placeholder="Type a city.."
-              className="form-control"
+              placeholder="Search City..."
+              className="searchCity"
               autoComplete="off"
-            />
-          </div>
-          <div className="col-3">
-            <input
-              type="submit"
-              value="Search"
-              className="btn btn-primary w-100"
-            />
+            />{" "}
+            <button class="searchButton">
+              <i class="fas fa-search shadow-sm"></i>
+            </button>
           </div>
         </div>
       </form>
